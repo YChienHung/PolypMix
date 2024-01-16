@@ -1,7 +1,8 @@
 # PolypMix
 
 This repo is the official implementation
-of ["PolypMixNet: Enhancing semi-supervised polyp segmentation with polyp-aware augmentation"]() by Xiao Jia, et al.
+of ["PolypMixNet: Enhancing semi-supervised polyp segmentation with polyp-aware augmentation"](https://www.sciencedirect.com/science/article/pii/S0010482524000908)
+by Xiao Jia, et al.
 
 ## Introduction
 
@@ -85,9 +86,33 @@ python test_model.py --root <PATH_TO_DATASET_ROOT> --checkpoints <PATH_TO_CHECKP
 
 `kvasir_SEG_percentage` is a folder in checkpoint folder, which is trained by kvasir_SEG dataset.
 
+# Reference Code
+
+|   Name   |                   Link                    |
+|:--------:|:-----------------------------------------:|
+|    MT    | https://github.com/CuriousAI/mean-teacher |
+|   UAMT   |     https://github.com/yulequan/UA-MT     |
+|   ICT    |   https://github.com/vikasverma1077/ICT   |
+|  ADVENT  |     https://github.com/valeoai/ADVENT     |
+| ClassMix |   https://github.com/WilhelmT/ClassMix    |
+|   URPC   |   https://github.com/HiLab-git/SSL4MIS    |
+
+Thanks for their work again.
+
 ## Cite PolypMix
 
 If you find this repository useful, please use the following BibTeX entry for citation.
+
+```latex
+@article{jia2024polypmixnet,
+  title = {{{PolypMixNet}}: {{Enhancing}} Semi-Supervised Polyp Segmentation with Polyp-Aware Augmentation},
+  author = {Jia, Xiao and Shen, Yutian and Yang, Jianhong and Song, Ran and Zhang, Wei and Meng, Max Q. -H. and Liao, Joseph C. and Xing, Lei},
+  year = {2024},
+  journal = {Computers in Biology and Medicine},
+  pages = {108006},
+  doi = {10.1016/j.compbiomed.2024.108006}
+}
+```
 
 ## License
 
