@@ -114,6 +114,23 @@ If you find this repository useful, please use the following BibTeX entry for ci
 }
 ```
 
+## Star History
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://api.star-history.com/svg?repos=YChienHung/PolypMix&type=Date&theme=dark"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://api.star-history.com/svg?repos=YChienHung/PolypMix&type=Date"
+  />
+  <img
+    alt="Star History Chart"
+    src="https://api.star-history.com/svg?repos=YChienHung/PolypMix&type=Date"
+  />
+</picture>
+
 ## License
 
 This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
