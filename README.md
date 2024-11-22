@@ -86,6 +86,17 @@ python test_model.py --root <PATH_TO_DATASET_ROOT> --checkpoints <PATH_TO_CHECKP
 
 `kvasir_SEG_percentage` is a folder in checkpoint folder, which is trained by kvasir_SEG dataset.
 
+**Test Visual Mix**
+
+```shell
+python visual_mix_results.py --checkpoints <PATH_TO_CHECKPOINTS> --image_path <PATH_TO_IAMGES_YOU_WANT_TEST>
+```
+In our code, the folder show like this, and you can change it if you need.
+```
+test_dir
+├── normal
+└── tumor
+```
 # Reference Code
 
 |   Name   |                   Link                    |
